@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Brandon Vo</title>
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/js/getRandomObject.js"></script>
+  <script src="assets/js/header.js"></script>
+</head>
+
+<body>
+
+  <nav-header></nav-header>
+
+  <!-- Home -->
+  <main id="swup" class="transition-fade">
+    <section class="home flex-center" id="home">
+      <div class="home-container">
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/brandonwvo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/brandon-vo" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="mailto: brandonwvo@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="info">
+          <h2>brandon vo</h2>
+          <p>A Student at the University of Waterloo.</p>
+          <a href="#" id="main-btn" class="btn">work in progress</i></a>
+          <div class="main-modal flex-center">
+            <div class="main-modal-body">
+              <i class="fas fa-times modal-close-btn"></i>
+              <h3>Hello there,</h3>
+              <p>
+                Thank you for viewing my portfolio website!
+                It is currently a work in progress project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <script>
+          document.write(getObjectTag());
+        </script>
+      </div>
+      <a href="/about.html" class="scroll-down"> <i class="fas fa-chevron-down"></i></a>
+    </section>
+  </main>
+
+  <div class="transition-wipe overlay"></div>
+
+  <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+  </div>
+
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+  <script>
+    const swup = new Swup();
+  </script>
+</body>
+
+</html>
